@@ -12,7 +12,12 @@ Unit::~Unit()
     //dtor
 }
 
-void Unit::setCoordinate(Point Coordinates)
+void Unit::Move()
+{
+    //dtor
+}
+
+/*void Unit::setCoordinate(Point Coordinates)
 {
     this->Coordinates = Coordinates;
 }
@@ -31,3 +36,10 @@ int Unit::getHealth()
 {
     return Health;
 }
+
+bool Unit::getLife()
+{
+    return Life;
+}
+*/
+

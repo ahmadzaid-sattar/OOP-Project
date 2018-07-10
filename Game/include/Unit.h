@@ -9,10 +9,14 @@ class Unit
     public:
         Unit();
         virtual ~Unit();
-        void setCoordinate(Point Coordinates);
+        /*void setCoordinate(Point Coordinates);
         void setSpeed(float Speed);
         void setFriction(float Friction);
         int getHealth();
+        bool getLife();
+        string getType();
+        */
+        virtual void Move();
 
     protected:
         string Type;

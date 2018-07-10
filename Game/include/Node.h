@@ -3,9 +3,9 @@
 
 struct Node
 {
-    Unit* unit;
-    Node* next;
-    Node* prev;
+    Unit* Data;
+    Node* Next;
+    Node* Prev;
 
     ~Node()
     {
