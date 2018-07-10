@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1531219977 source:/home/ahmadzaid/Documents/Game Project/Game/main.cpp
+	<iostream>
+	"Point.h"
+	"Unit.h"
+	"Self.h"
+
+1531209834 source:/home/ahmadzaid/Documents/Game Project/Game/src/Point.cpp
+	"Point.h"
+	<iostream>
+
+1531209390 /home/ahmadzaid/Documents/Game Project/Game/include/Point.h
+
+1531217196 source:/home/ahmadzaid/Documents/Game Project/Game/src/Unit.cpp
+	"Unit.h"
+	<iostream>
+
+1531217153 /home/ahmadzaid/Documents/Game Project/Game/include/Unit.h
+	<string>
+	"Point.h"
+
+1531219897 source:/home/ahmadzaid/Documents/Game Project/Game/src/Self.cpp
+	"Self.h"
+	<string>
+	<iostream>
+
+1531219016 /home/ahmadzaid/Documents/Game Project/Game/include/Self.h
+	<string>
+	<Unit.h>
+
