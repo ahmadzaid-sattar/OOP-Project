@@ -7,6 +7,7 @@ class Point
     public:
         Point();
         Point(float pointX, float pointY);
+        void showPoint();
         virtual ~Point();
 
     private:

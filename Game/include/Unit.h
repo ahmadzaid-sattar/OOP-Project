@@ -8,9 +8,15 @@ class Unit
     public:
         Unit();
         virtual ~Unit();
+
     protected:
         string Type;
         bool Life;
+        Point Coordinates;
+        int Health;
+        float Width;
+        float Height;
+        float speed;
 
 
 
