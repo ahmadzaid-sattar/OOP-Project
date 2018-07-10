@@ -1,6 +1,7 @@
 #ifndef UNIT_H
 #define UNIT_H
 #include <string>
+#include"Point.h"
 using namespace std;
 
 class Unit
@@ -8,6 +9,9 @@ class Unit
     public:
         Unit();
         virtual ~Unit();
+        //void setSpeed();
+        void setCoordinate(Point Coordinates);
+        void setSpeed(float Speed);
 
     protected:
         string Type;
@@ -16,7 +20,7 @@ class Unit
         int Health;
         float Width;
         float Height;
-        float speed;
+        float Speed;
 
 
 

@@ -1,12 +1,14 @@
-#ifndef NODE_H_INCLUDED
-#define NODE_H_INCLUDED
+#pragma once
+#include"Unit.h"
 
 struct Node
 {
-    Unit Data;
-    Node* Next;
-    Node* Previous;
+    Unit* unit;
+    Node* next;
+    Node* prev;
+
+    ~Node()
+    {
+        delete unit;
+    }
 };
-
-
-#endif // NODE_H_INCLUDED
