@@ -36,9 +36,11 @@
 		</Compiler>
 		<Unit filename="include/Node.h" />
 		<Unit filename="include/Point.h" />
+		<Unit filename="include/Self.h" />
 		<Unit filename="include/Unit.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Self.cpp" />
 		<Unit filename="src/Unit.cpp" />
 		<Extensions>
 			<code_completion />
