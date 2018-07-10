@@ -9,6 +9,6 @@ int main()
     Point p(12,15);
     p.showPoint();
     Unit U;
-    U.setCoordinate(p);
+    U.setFriction(54.0);
     return 0;
 }

@@ -21,3 +21,13 @@ void Unit::setSpeed(float Speed)
 {
     this->Speed = Speed;
 }
+
+void Unit::setFriction(float Friction)
+{
+    this->Friction = Friction;
+}
+
+int Unit::getHealth()
+{
+    return Health;
+}
