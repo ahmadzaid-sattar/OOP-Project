@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1531306681 source:/home/ahmadzaid/Documents/Game Project/Game/main.cpp
+	<iostream>
+	<list>
+	"Point.h"
+	"Unit.h"
+	"Self.h"
+	"Bullet.h"
+
+1531209834 source:/home/ahmadzaid/Documents/Game Project/Game/src/Point.cpp
+	"Point.h"
+	<iostream>
+
+1531209390 /home/ahmadzaid/Documents/Game Project/Game/include/Point.h
+
+1531217196 source:/home/ahmadzaid/Documents/Game Project/Game/src/Unit.cpp
+	"Unit.h"
+	<iostream>
+
+1531217153 /home/ahmadzaid/Documents/Game Project/Game/include/Unit.h
+	<string>
+	"Point.h"
+
+1531220270 source:/home/ahmadzaid/Documents/Game Project/Game/src/Self.cpp
+	"Self.h"
+	<string>
+	<iostream>
+
+1531220250 /home/ahmadzaid/Documents/Game Project/Game/include/Self.h
+	<string>
+	<Unit.h>
+
+1531304325 source:/home/ahmadzaid/Documents/Game Project/Game/src/Ammunition.cpp
+	"Ammunition.h"
+
+1531304325 /home/ahmadzaid/Documents/Game Project/Game/include/Ammunition.h
+	<Unit.h>
+
+1531304382 /home/ahmadzaid/Documents/Game Project/Game/include/Bullet.h
+	<Ammunition.h>
+
+1531304671 source:/home/ahmadzaid/Documents/Game Project/Game/src/Bird.cpp
+	"Bird.h"
+
+1531304671 /home/ahmadzaid/Documents/Game Project/Game/include/Bird.h
+
+1531304382 source:/home/ahmadzaid/Documents/Game Project/Game/src/Bullet.cpp
+	"Bullet.h"
+
+1531304873 source:/home/ahmadzaid/Documents/Game Project/Game/src/Button.cpp
+	"Button.h"
+
+1531304873 /home/ahmadzaid/Documents/Game Project/Game/include/Button.h
+	<Unit.h>
+
+1531304744 source:/home/ahmadzaid/Documents/Game Project/Game/src/Cloud.cpp
+	"Cloud.h"
+
+1531304744 /home/ahmadzaid/Documents/Game Project/Game/include/Cloud.h
+
+1531304494 source:/home/ahmadzaid/Documents/Game Project/Game/src/Infantry.cpp
+	"Infantry.h"
+
+1531304511 /home/ahmadzaid/Documents/Game Project/Game/include/Infantry.h
+	"Bullet.h"
+
+1531305014 source:/home/ahmadzaid/Documents/Game Project/Game/src/PauseAndSave.cpp
+	"PauseAndSave.h"
+
+1531305014 /home/ahmadzaid/Documents/Game Project/Game/include/PauseAndSave.h
+	<Button.h>
+
+1531304901 source:/home/ahmadzaid/Documents/Game Project/Game/src/Play.cpp
+	"Play.h"
+
+1531304900 /home/ahmadzaid/Documents/Game Project/Game/include/Play.h
+	<Button.h>
+
+1531305170 source:/home/ahmadzaid/Documents/Game Project/Game/src/Quit.cpp
+	"Quit.h"
+
+1531305170 /home/ahmadzaid/Documents/Game Project/Game/include/Quit.h
+	<Button.h>
+
+1531304599 source:/home/ahmadzaid/Documents/Game Project/Game/src/Shell.cpp
+	"Shell.h"
+
+1531304588 /home/ahmadzaid/Documents/Game Project/Game/include/Shell.h
+
+1531304533 source:/home/ahmadzaid/Documents/Game Project/Game/src/Tank.cpp
+	"Tank.h"
+
+1531304613 /home/ahmadzaid/Documents/Game Project/Game/include/Tank.h
+	"Shell.h"
+
+1531304685 source:/home/ahmadzaid/Documents/Game Project/Game/src/Tree.cpp
+	"Tree.h"
+
+1531304685 /home/ahmadzaid/Documents/Game Project/Game/include/Tree.h
+
+1531307034 source:/home/ahmadzaid/Documents/Game Project/Game/src/GameScreen.cpp
+	"GameScreen.h"
+
+1531307034 /home/ahmadzaid/Documents/Game Project/Game/include/GameScreen.h
+	<Screen.h>
+
+1531305370 /home/ahmadzaid/Documents/Game Project/Game/include/Screen.h
+
+1531306985 source:/home/ahmadzaid/Documents/Game Project/Game/src/MainMenu.cpp
+	"MainMenu.h"
+
+1531306985 /home/ahmadzaid/Documents/Game Project/Game/include/MainMenu.h
+	<Screen.h>
+
+1531305458 source:/home/ahmadzaid/Documents/Game Project/Game/src/QuitScreen.cpp
+	"QuitScreen.h"
+
+1531305458 /home/ahmadzaid/Documents/Game Project/Game/include/QuitScreen.h
+	<Screen.h>
+
+1531305243 source:/home/ahmadzaid/Documents/Game Project/Game/src/Resume.cpp
+	"Resume.h"
+
+1531305243 /home/ahmadzaid/Documents/Game Project/Game/include/Resume.h
+	<Button.h>
+
+1531305370 source:/home/ahmadzaid/Documents/Game Project/Game/src/Screen.cpp
+	"Screen.h"
+
